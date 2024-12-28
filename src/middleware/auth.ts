@@ -6,7 +6,7 @@ import User from "../models/user";
 declare global{
     namespace Express{
         interface Request{
-            userId:String,
+            userId:string,
             auth0Id:String
         }
     }
